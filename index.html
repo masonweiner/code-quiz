@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- create a header greeting the player -->
+      <header>
+        <h1>Let's play the quiz game (click start to play)</h1>
+      </header>
+      <p class="timer">Time remaining: <span id="timer"></span></p>
+      <section class="game">
+        <section class="questionCard">
+          <p><span id="question">Your question will display here</span></p>
+          <ul id="answers"></ul>
+        </section>
+        <button id="startButton">Start</button>
+      </section>
+    </main>
+    <footer>
+        <input type="text" id="initials" value="">Your initials</input>
+        <button id="submit">Submit</button>
+        <ul>
+            <li id="score"></li>
+        </ul>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
